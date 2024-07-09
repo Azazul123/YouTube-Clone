@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1000px 200px;
+}
+
+.grid1{
+    background-color: lightsalmon;
+}
+
+.gird2{
+    background-color: lightblue;
+}
+
+.column{
+    margin-right: 40px;
+    color: white;
+}

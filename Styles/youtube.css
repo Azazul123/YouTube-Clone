@@ -4,6 +4,10 @@ p {
     font-family: Roboto, Arial;
 }
 
+.video-grid:hover{
+    cursor: pointer;
+}
+
 .video-grid {
     display: inline-block;
     width: 300px;
@@ -24,31 +28,24 @@ p {
 }
 
 .channel-image{
-    width: 40px;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.video-description {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 5px;
-}
-
-.profile-picture {
-    width: 100%;
-    border: none;
-    border-radius: 20px;
-    display: inline-block;
+    background-color: gray;
 }
 
 .video-info {
-    margin-top: 10px;
+    background-color: gray;
+}
+
+.profile-picture {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .video-title {
-    width: 250px;
-    display: inline-block;
     font-weight: 500;
     margin-bottom: 12px;
 }
